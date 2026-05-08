@@ -81,3 +81,57 @@ Some files may follow a filename convention similar to:
 
 ```text
 EEG_01_H_EXP_2024-10-31-12_25_25.csv
+
+```
+
+A filename of this type can be interpreted as:
+
+| Segment | Example | Meaning |
+|---|---|---|
+| Prefix | `EEG` | EEG recording file. |
+| Subject number | `01` | Internal subject number. |
+| Sex code | `H` | H/M demographic code. |
+| Group | `EXP` | Experimental group. |
+| Date and time | `2024-10-31-12_25_25` | Acquisition date and time. |
+
+For public documentation and analysis, researchers should use the anonymized `subject_id` field rather than relying only on the original filename.
+
+## Marker interpretation
+
+The `Marker0` field contains temporal markers associated with the experimental protocol.
+
+A general interpretation is:
+
+| Marker value | Meaning |
+|---|---|
+| `0` | Baseline or no active segment, depending on the acquisition protocol. |
+| nonzero value | Event or experimental segment marker. |
+| missing/NaN | No marker or inactive marker field. |
+
+Researchers should inspect the marker distribution before segmentation.
+
+## Recommended preprocessing notes
+
+Before using the dataset for machine learning or statistical analysis, researchers should document preprocessing choices, including:
+
+1. Timestamp verification.
+2. Missing-value handling.
+3. Artifact inspection or rejection.
+4. Filtering parameters, if applied.
+5. Segmentation strategy using `Marker0`.
+6. Feature extraction method.
+7. Train/test split strategy.
+
+For machine learning experiments involving human participants, subject-independent validation is recommended when the goal is to evaluate generalization across subjects.
+
+## Privacy and anonymization
+
+Personal identifiers were removed or anonymized before publication. The dataset should not include names, student IDs, institutional IDs, email addresses, or direct personal identifiers.
+
+The `sex_code` variable was retained as an anonymized demographic variable because it is relevant for group-level EEG analyses.
+
+## License
+
+The dataset hosted on Zenodo is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0), unless otherwise specified in the Zenodo record.
+
+The code in this GitHub repository is released under the MIT License.
