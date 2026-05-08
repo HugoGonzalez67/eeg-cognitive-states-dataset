@@ -61,6 +61,8 @@ The dataset hosted on Zenodo is released under the Creative Commons Attribution 
 ## Citation
 
 If you use this dataset or the associated scripts, please cite the Zenodo record:
+
+```bibtex
 @dataset{gonzalez_hernandez_2026_eeg,
   author       = {González-Hernández, Hugo Gustavo and Galina Juárez, María Eugenia and Peña Cortés, Dafne Vania and Concha-Pérez, Elsa},
   title        = {EEG Dataset for Nonlinear Dynamics-Based Characterization of Cognitive States in Engineering Students},
@@ -70,14 +72,6 @@ If you use this dataset or the associated scripts, please cite the Zenodo record
   doi          = {10.5281/zenodo.20089289},
   url          = {https://doi.org/10.5281/zenodo.20089289}
 }
-
-## Related publications
-
-This dataset is associated with research on EEG-based cognitive-state characterization and educational activities.
-
-Related conference paper:
-
-DOI: 10.1109/EDUCON60312.2024.10578836
 ## Contact
 
 Hugo G. González-Hernández
