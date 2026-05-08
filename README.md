@@ -72,12 +72,14 @@ If you use this dataset or the associated scripts, please cite the Zenodo record
   doi          = {10.5281/zenodo.20089289},
   url          = {https://doi.org/10.5281/zenodo.20089289}
 }
+```
+
 ## Contact
 
-Hugo G. González-Hernández
-hgonz@tec.mx 
-
-
+Hugo Gustavo González-Hernández  
+Tecnológico de Monterrey  
+School of Engineering and Sciences  
+hgonz@tec.mx
 
 ## Repository structure
 
@@ -99,4 +101,4 @@ eeg-cognitive-states-dataset/
 │   └── example_preprocessing.ipynb
 └── examples/
     └── README.md
-
+```
