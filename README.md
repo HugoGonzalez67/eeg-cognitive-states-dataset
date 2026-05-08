@@ -46,3 +46,62 @@ eeg-cognitive-states-dataset/
 │   └── example_preprocessing.ipynb
 └── examples/
     └── README.md
+
+Suggested applications
+
+This dataset and repository may be useful for studies involving:
+
+EEG signal processing
+Nonlinear dynamics-based EEG characterization
+Chaotic descriptors and complexity measures
+Cognitive-state classification
+Machine learning applied to biosignals
+Educational neuroscience
+Human–machine interaction
+Dataset documentation
+
+The Zenodo record includes documentation describing:
+
+File structure
+EEG channels
+Sampling frequency
+Temporal markers
+Experimental groups
+Anonymized subject-level metadata
+Data dictionary
+
+Personal identifiers were removed or anonymized before publication. The sex_code variable was retained as an anonymized demographic variable because it is relevant for group-level EEG analyses.
+
+License
+
+The code in this repository is released under the MIT License.
+
+The dataset hosted on Zenodo is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0), unless otherwise specified in the Zenodo record.
+
+Citation
+
+If you use this dataset or the associated scripts, please cite the Zenodo record:
+@dataset{gonzalez_hernandez_2026_eeg,
+  author       = {González-Hernández, Hugo Gustavo and Galina Juárez, María Eugenia and Peña Cortés, Dafne Vania and Concha-Pérez, Elsa},
+  title        = {EEG Dataset for Nonlinear Dynamics-Based Characterization of Cognitive States in Engineering Students},
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.20089289},
+  url          = {https://doi.org/10.5281/zenodo.20089289}
+}
+
+Related publication
+
+This dataset is associated with research on EEG-based cognitive-state characterization and educational activities.
+
+Related conference paper:
+
+DOI: 10.1109/EDUCON60312.2024.10578836
+Contact
+
+Hugo Gustavo González-Hernández
+Tecnológico de Monterrey
+School of Engineering and Sciences
+
+
