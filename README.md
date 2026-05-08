@@ -47,7 +47,7 @@ eeg-cognitive-states-dataset/
 └── examples/
     └── README.md
 
-Suggested applications
+## Suggested applications
 
 This dataset and repository may be useful for studies involving:
 
@@ -58,7 +58,8 @@ Cognitive-state classification
 Machine learning applied to biosignals
 Educational neuroscience
 Human–machine interaction
-Dataset documentation
+
+## Dataset documentation
 
 The Zenodo record includes documentation describing:
 
@@ -72,13 +73,13 @@ Data dictionary
 
 Personal identifiers were removed or anonymized before publication. The sex_code variable was retained as an anonymized demographic variable because it is relevant for group-level EEG analyses.
 
-License
+## License
 
 The code in this repository is released under the MIT License.
 
 The dataset hosted on Zenodo is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0), unless otherwise specified in the Zenodo record.
 
-Citation
+## Citation
 
 If you use this dataset or the associated scripts, please cite the Zenodo record:
 @dataset{gonzalez_hernandez_2026_eeg,
@@ -91,17 +92,15 @@ If you use this dataset or the associated scripts, please cite the Zenodo record
   url          = {https://doi.org/10.5281/zenodo.20089289}
 }
 
-Related publication
+## Related publications
 
 This dataset is associated with research on EEG-based cognitive-state characterization and educational activities.
 
 Related conference paper:
 
 DOI: 10.1109/EDUCON60312.2024.10578836
-Contact
+## Contact
 
-Hugo Gustavo González-Hernández
-Tecnológico de Monterrey
-School of Engineering and Sciences
-
+Hugo G. González-Hernández
+hgonz@tec.mx 
 
