@@ -15,7 +15,7 @@ The primary EEG dataset is hosted on Zenodo and includes recordings from Muse 2 
 
 The signals were sampled at 256 Hz and include temporal markers associated with experimental segments and cognitive tasks.
 
-Zenodo DOI: To be added after publication.
+Zenodo DOI: 10.5281/zenodo.20089290
 
 ## Repository structure
 
