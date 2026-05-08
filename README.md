@@ -26,27 +26,6 @@ The dataset includes recordings from control and experimental groups. The experi
 
 This repository does not store the raw EEG data files. The raw dataset is hosted on Zenodo. This repository provides documentation and scripts to support reproducibility, preprocessing, metadata generation, and feature extraction.
 
-## Repository structure
-
-```text
-eeg-cognitive-states-dataset/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── requirements.txt
-├── docs/
-│   ├── data_dictionary.md
-│   └── dataset_description.md
-├── scripts/
-│   ├── generate_metadata_from_filenames.py
-│   ├── preprocess_eeg.py
-│   ├── segment_markers.py
-│   └── extract_nonlinear_features.py
-├── notebooks/
-│   └── example_preprocessing.ipynb
-└── examples/
-    └── README.md
-
 ## Suggested applications
 
 This dataset and repository may be useful for studies involving:
@@ -103,4 +82,27 @@ DOI: 10.1109/EDUCON60312.2024.10578836
 
 Hugo G. González-Hernández
 hgonz@tec.mx 
+
+
+
+## Repository structure
+
+```text
+eeg-cognitive-states-dataset/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── docs/
+│   ├── data_dictionary.md
+│   └── dataset_description.md
+├── scripts/
+│   ├── generate_metadata_from_filenames.py
+│   ├── preprocess_eeg.py
+│   ├── segment_markers.py
+│   └── extract_nonlinear_features.py
+├── notebooks/
+│   └── example_preprocessing.ipynb
+└── examples/
+    └── README.md
 
